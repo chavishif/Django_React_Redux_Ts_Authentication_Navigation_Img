@@ -7,10 +7,6 @@ import {
   loginAsync, selectLooged, logout, selectAccess, selectUsername
 } from './features/login/loginSlice';
 import './style.css'
-
-// import { Login } from './features/login/Login';
-// import { Gallery } from './features/gallery/Gallery';
-// import { Profile } from './features/Profile/Profile';
 import { Outlet, Link } from "react-router-dom";
 import Profile from './components/Profile';
 
