@@ -13,10 +13,10 @@ export function MenuGallery() {
   return (
     <div>
       <br></br>
-      <br></br>
+    
 
       {/* {updid} */}
-      <h1><center>Welcome {username}</center></h1>
+      <h1><center>Welcome to {username}'s gallery</center></h1>
       <nav style={{ display: "flex", flexDirection: "column" }}>
         <Link to="/gallery/family">Family Album</Link> {" "}
         <Link to="/gallery/friends">Freinds Album </Link> {" "}
